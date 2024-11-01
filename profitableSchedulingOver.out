@@ -1,0 +1,142 @@
+Problem:    esameProfitableSchedulingOver
+Rows:       46
+Columns:    36 (36 integer, 36 binary)
+Non-zeros:  168
+Status:     INTEGER OPTIMAL
+Objective:  z = 10.00000003 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 jobMacchina[1]
+                                   1                           1 
+     2 jobMacchina[2]
+                                   1                           1 
+     3 jobMacchina[3]
+                                   1                           1 
+     4 jobMacchina[4]
+                                   0                           1 
+     5 jobMacchina[5]
+                                   1                           1 
+     6 jobMacchina[6]
+                                   1                           1 
+     7 jobMacchina[7]
+                                   1                           1 
+     8 jobMacchina[8]
+                                   1                           1 
+     9 jobMacchina[9]
+                                   1                           1 
+    10 jobMacchinaCompatibilita[1,2]
+                                   0            -0             = 
+    11 jobMacchinaCompatibilita[2,2]
+                                   0            -0             = 
+    12 jobMacchinaCompatibilita[4,3]
+                                   0            -0             = 
+    13 jobMacchinaCompatibilita[5,3]
+                                   0            -0             = 
+    14 jobMacchinaCompatibilita[8,1]
+                                   0            -0             = 
+    15 jobMacchinaCompatibilita[9,1]
+                                   0            -0             = 
+    16 jobJobCompatibilita[1,1,2]
+                                   1                           1 
+    17 jobJobCompatibilita[1,2,2]
+                                   0                           1 
+    18 jobJobCompatibilita[1,3,2]
+                                   1                           1 
+    19 jobJobCompatibilita[3,1,4]
+                                   1                           1 
+    20 jobJobCompatibilita[3,2,4]
+                                   0                           1 
+    21 jobJobCompatibilita[3,3,4]
+                                   0                           1 
+    22 jobJobCompatibilita[5,1,6]
+                                   0                           1 
+    23 jobJobCompatibilita[5,2,6]
+                                   1                           1 
+    24 jobJobCompatibilita[5,3,6]
+                                   1                           1 
+    25 jobJobCompatibilita[7,1,8]
+                                   1                           1 
+    26 jobJobCompatibilita[7,1,9]
+                                   1                           1 
+    27 jobJobCompatibilita[7,2,8]
+                                   1                           1 
+    28 jobJobCompatibilita[7,2,9]
+                                   0                           1 
+    29 jobJobCompatibilita[7,3,8]
+                                   0                           1 
+    30 jobJobCompatibilita[7,3,9]
+                                   1                           1 
+    31 jobJobCompatibilita[8,1,9]
+                                   0                           1 
+    32 jobJobCompatibilita[8,2,9]
+                                   1                           1 
+    33 jobJobCompatibilita[8,3,9]
+                                   1                           1 
+    34 tempiMassimi[1]
+                                 351                         360 
+    35 tempiMassimi[2]
+                                 243                         330 
+    36 tempiMassimi[3]
+                                 309                         320 
+    37 valoreY[1]                  1             1             = 
+    38 valoreY[2]                  1             1             = 
+    39 valoreY[3]                  1             1             = 
+    40 valoreY[4]                  1             1             = 
+    41 valoreY[5]                  1             1             = 
+    42 valoreY[6]                  1             1             = 
+    43 valoreY[7]                  1             1             = 
+    44 valoreY[8]                  1             1             = 
+    45 valoreY[9]                  1             1             = 
+    46 z                          10                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1,1]       *              0             0             1 
+     2 x[1,2]       *              0             0             1 
+     3 x[1,3]       *              1             0             1 
+     4 x[2,1]       *              1             0             1 
+     5 x[2,2]       *              0             0             1 
+     6 x[2,3]       *              0             0             1 
+     7 x[3,1]       *              1             0             1 
+     8 x[3,2]       *              0             0             1 
+     9 x[3,3]       *              0             0             1 
+    10 x[4,1]       *              0             0             1 
+    11 x[4,2]       *              0             0             1 
+    12 x[4,3]       *              0             0             1 
+    13 x[5,1]       *              0             0             1 
+    14 x[5,2]       *              1             0             1 
+    15 x[5,3]       *              0             0             1 
+    16 x[6,1]       *              0             0             1 
+    17 x[6,2]       *              0             0             1 
+    18 x[6,3]       *              1             0             1 
+    19 x[7,1]       *              1             0             1 
+    20 x[7,2]       *              0             0             1 
+    21 x[7,3]       *              0             0             1 
+    22 x[8,1]       *              0             0             1 
+    23 x[8,2]       *              1             0             1 
+    24 x[8,3]       *              0             0             1 
+    25 x[9,1]       *              0             0             1 
+    26 x[9,2]       *              0             0             1 
+    27 x[9,3]       *              1             0             1 
+    28 y[1]         *              0             0             1 
+    29 y[2]         *              0             0             1 
+    30 y[3]         *              0             0             1 
+    31 y[4]         *              1             0             1 
+    32 y[5]         *              0             0             1 
+    33 y[6]         *              0             0             1 
+    34 y[7]         *              0             0             1 
+    35 y[8]         *              0             0             1 
+    36 y[9]         *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

@@ -1,0 +1,12 @@
+Profitable scheduling.
+In un’impresa manifatturiera ci sono un dato insieme di macchine che devono eseguire un dato insieme di jobs. Per
+motivi tecnici ogni job è compatibile solo con alcune delle macchine. Il tempo necessario per eseguire uno stesso job può
+essere diverso da macchina a macchina e lo stesso vale per il costo della lavorazione. Alcuni jobs inoltre sono incompatibili tra loro, cioè non possono essere assegnati alla stessa macchina. Si vuole trovare il modo di eseguire tutti i jobs a
+minimo costo complessivo.
+In taluni casi il sistema può risultare oversubscribed, cioè può darsi che non ci siano sufficienti risorse per eseguire
+tutti i jobs. In tal caso è consentito trascurare alcuni jobs (subappaltandone la produzione a terzi). Tale scelta comporta un
+costo aggiuntivo, che è rappresentato da una data penalità. Si vuole quindi trovare un sottoinsieme di jobs da trascurare,
+in modo da minimizzare la penalità e da consentire l’esistenza di un assegnamento ammissibile dei jobs restanti. Tra tutte
+le soluzioni di minima penalità, si vuole trovare quella di minimo costo.
+Scrivere il modello matematico del problema e classificarlo.
+Risolvere l’esempio descritto nel file Profitable scheduling.txt
